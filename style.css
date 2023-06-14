@@ -211,16 +211,39 @@ body {
 }
 
 .insta {
-    height: 70px;
+    height: 30px;
     transition: all 0.3s ease-in-out;
     border-radius: 50px; 
     
 }
 
 .insta:hover {
-    border: 2px solid 5px 5px 10px rgb(220, 127, 127);
+    border: 2px solid 5px 5px 10px rgb(184, 34, 134);
     transform: translate(-2px, -2px);
-    box-shadow: 5px 5px 10px rgb(220, 127, 127);
+    box-shadow: 5px 5px 10px rgb(187, 47, 89);
+    transition: transform 0.7s;
+    
+}
+
+.contato{
+    display: flex;   
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.whatsapp {       
+    transition: all 0.3s ease-in-out;    
+    margin-bottom: 15px;
+    border-radius: 50px; 
+    height: 30px;   
+}
+
+.whatsapp:hover {
+    border: 2px solid 5px 5px 10px rgb(88, 224, 83);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgb(54, 206, 105);
     transition: transform 0.7s;
     
 }
