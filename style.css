@@ -226,20 +226,13 @@ body {
 }
 
 .rodape {
-    background-color: #11362e;
-    padding: 32px 0;
-    border-top: 0.4px solid #fff2e7;
-    font-size: 20px;
+    background-color: #11362e;  
     color: #ecd6c4;
-    font-weight: 400;
+    text-align: center;
+    font-size: 1em;
+    padding: 20px;
 }
 
-.rodape-imagem {
-    height: 48px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
 
 @media screen and (max-width: 950px) {
     .conteudo-principal-imagem {
